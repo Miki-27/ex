@@ -1,0 +1,6 @@
+
+C:\xampp
+
+↓
+
+C:\xampp\mysql\bin

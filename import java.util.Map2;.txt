@@ -1,0 +1,19 @@
+import java.util.Map;
+import java.util.HashMap;
+import java.util.Map.Entry;
+​
+public class Main{
+  
+  public static void main(String[] args){
+    Map<String, Integer> map = new HashMap<>();
+    map.put("国語", 70);
+    map.put("数学", 90);
+    map.put("英語", 80);
+    
+    for(Entry<String, Integer> entry : map.entrySet()){
+      System.out.println(entry.getKey() + "の点数は" + entry.getValue());
+    }
+  }
+}
+
+8

@@ -1,0 +1,27 @@
+import java.util.Map;
+import java.util.HashMap;
+
+public class Main{
+  
+  public static void main(String[] args){
+    Map<String, String> map = new HashMap<>();
+    map.put("taro", "太郎");
+    map.put("jiro", "次郎");
+    map.put("saburo", "三郎");
+    
+    for(String key : map.keySet()){
+      System.out.println(map.get(key));
+    }
+  }
+}
+
+
+
+７
+
+★　各キーによって、Mapインスタンスから値を最後に取得。　※キーではない！
+
+答え
+太郎
+三郎
+次郎
